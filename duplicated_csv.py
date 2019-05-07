@@ -8,5 +8,5 @@ for row in spamreader:
 	print(lista[3:],end="" )
 
 print("\n")
-print("\n Duplicados: ")
+print("\n Duplicatess: ")
 print([item for item, count in collections.Counter(lista).items() if count > 1])
