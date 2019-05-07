@@ -1,5 +1,5 @@
 import csv,collections
-csvfile = open('patch.csv',encoding="utf-8") 
+csvfile = open('filename.csv',encoding="utf-8") 
 spamreader = csv.reader(csvfile,delimiter="," )
 lista = list()
 for row in spamreader:
