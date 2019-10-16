@@ -13,14 +13,14 @@ try:
             lista.append(row[1])
         pass
     else:
-        print("Usage: python3 valores_duplicados_csv <file.csv>")
+        print("Usage: python3 duplicated-csv-values.py <file.csv>")
         pass
     print("\n Duplicated values: ")
     print([item for item, count in collections.Counter(lista).items() if count > 1])
 except FileNotFoundError:
     print("File not found.")
 except IndexError:
-    print("Usage: python3 valores_duplicados_csv <file.csv>")
+    print("Usage: python3 duplicated-csv-values.py <file.csv>")
 
 
 
