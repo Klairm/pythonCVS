@@ -1,2 +1,2 @@
 # pythonCVS
-Check duplicated valors on a cvs files with python
+Check duplicated values on a cvs files with python
